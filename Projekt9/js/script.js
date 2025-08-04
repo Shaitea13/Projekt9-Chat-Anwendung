@@ -1,4 +1,3 @@
-
 // DOM Elemente
 const messagesContainer = document.getElementById('messagesContainer');
 const messageInput = document.getElementById('messageInput');
@@ -993,3 +992,4 @@ window.debugAudio = function() {
 window.addEventListener('error', (e) => {
     console.error('Global Error:', e.error);
 });
+
